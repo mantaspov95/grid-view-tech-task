@@ -1,0 +1,17 @@
+.grid-view {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  &__item {
+    grid-column: span 1;
+
+    &:nth-child(4) {
+      justify-self: end;
+      grid-column: span 3;
+    }
+  }
+}

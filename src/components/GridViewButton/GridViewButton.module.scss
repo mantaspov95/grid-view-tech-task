@@ -1,0 +1,10 @@
+.grid-view-button {
+  aspect-ratio: 1/1;
+  min-width: 5rem;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  transition: background 0.1s ease-in;
+}

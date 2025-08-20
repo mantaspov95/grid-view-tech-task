@@ -1,0 +1,1 @@
+export const GRID_VIEW_BUTTON_CLICK_DURATION = 2000;
